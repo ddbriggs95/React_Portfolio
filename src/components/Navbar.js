@@ -1,30 +1,27 @@
 import React from "react";
+import { Col, Row, Navbar } from "react-bootstrap";
 
-function Navbar() {
-    return (
-        
-        <nav>
-      <div className="logo">
-        <a href="/">Your Portfolio</a>
-      </div>
-      <ul className="nav-links">
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#resume">Resume</a>
-        </li>
-      </ul>
-    </nav>
-        
 
-    );
+
+function NavbarFunc({ currentPage, handlePageChange}) {
+  return (
+
+    <Navbar>
+      
+      <Col>
+        <a href="#about" onClick={() => handlePageChange('About')}>About</a>
+      </Col>
+      <Col>
+        <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
+      </Col>
+      <Col><a href="#portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio</a></Col>
+      <Col><a href="#resume" onClick={() => handlePageChange('Resume')}>Resume</a></Col>
+
+
+    </Navbar>
+
+
+  );
 }
 
-export default Navbar;
+export default NavbarFunc;
