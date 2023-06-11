@@ -34,6 +34,7 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Deployment
 
-Deployed App on Heroku:
+Deployed App on Heroku: https://ddbriggs95.github.io/React_Portfolio/
+
 
 Github Repository: https://github.com/ddbriggs95/React_Portfolio
