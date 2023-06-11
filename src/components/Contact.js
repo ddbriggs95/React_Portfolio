@@ -3,12 +3,22 @@
 
 function Contact() {
     return (
-        <section class="container">
-        <div class="row contact-row">
-            <div class="col-4"></div>
-            <div class="col-2 contact-text">Email: dowlingbriggs@gmail.com</div>
+        <section id="contact">
+        <div className="row section-head">
+          <div className="ten columns">
+            <p className="contact-text">
+            Feel free to contact me!
+            </p>
+          </div>
         </div>
-        </section>   
+        <div className="row">
+          <aside className="eigth columns footer-widgets">
+            <div className="email">
+              <h4>Email: dowlingbriggs@gmail.com</h4>
+            </div>
+          </aside>
+        </div>
+      </section>
     )
 }
  export default Contact;
