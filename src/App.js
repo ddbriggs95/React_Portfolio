@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import NavbarFunc from "./components/Navbar";
 import Header from "./components/Header";
 
+import './style.css'
+
 function App() {
 
     const [currentPage, setCurrentPage] = useState('About');

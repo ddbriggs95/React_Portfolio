@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    --color1: #27374D;
+    --color2: #526D82;
+    --color3: #9DB2BF;
+    --color4: #DDE6ED;
+    --color5: #ff3b3f;
+    --color6: whitesmoke;
+}
+
+.body {
+    background-image: linear-gradient(whitesmoke,  var(--color2))
+}
+
+.header {
+    color: whitesmoke;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 35px;
+    margin-bottom: 20px;
+
+}
+
+.navigation {
+    background-color: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.card-image {
+    max-width: 100%;
+    min-height: 100px;
+    border-radius:15px;
+}
+
+.card{
+    background: var(--color4);
+    width: 280px;
+    margin: 10px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.row {
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col {
+    padding: none;
+}
+
+
+.project-1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-3 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card h2, .card p{
+    background-color: transparent;
+}
+
+.card a {
+    background-color: var(--color4);
+    color: var(--color1);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.card a:hover {
+    color: var(--color5);
+}
+
+.card:hover {
+    background-color: var(--color2);
+    color: #DDE6ED;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all .5s ease;
+}
+
+.links {
+    display: flex;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    justify-content: start;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links a{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: var(--color2);
+    padding: 2px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.links a:hover{
+    color: var(--color3);
+    background-color: var(--color4);
+}
