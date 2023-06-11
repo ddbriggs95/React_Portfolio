@@ -3,7 +3,12 @@
 
 function Contact() {
     return (
-        <div>Contact</div>
+        <section class="container">
+        <div class="row contact-row">
+            <div class="col-4"></div>
+            <div class="col-2 contact-text">Email: dowlingbriggs@gmail.com</div>
+        </div>
+        </section>   
     )
 }
  export default Contact;

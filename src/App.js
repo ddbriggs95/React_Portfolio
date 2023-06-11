@@ -6,7 +6,7 @@ import Resume from './components/Resume';
 import Navbar from './components/Navbar';
 import NavbarFunc from "./components/Navbar";
 import Header from "./components/Header";
-
+import Footer from "./components/Footer";
 import './style.css'
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
             <Header />
             <NavbarFunc currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
 
     );
